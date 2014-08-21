@@ -70,7 +70,7 @@
       <file leaf-file-name="displayAllPlayers.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="51" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.8080439" vertical-offset="527" max-vertical-offset="1683">
+            <state line="61" column="4" selection-start="2616" selection-end="2616" vertical-scroll-proportion="0.9323583" vertical-offset="527" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
@@ -1038,7 +1038,7 @@
       <workItem from="1408565719972" duration="373000" />
       <workItem from="1408567066399" duration="650000" />
       <workItem from="1408627502186" duration="13501000" />
-      <workItem from="1408645852763" duration="4856000" />
+      <workItem from="1408645852763" duration="4913000" />
     </task>
     <task id="LOCAL-00001" summary="Database and layout&#10;">
       <created>1408561310281</created>
@@ -1064,11 +1064,15 @@
       <created>1408650827085</created>
       <updated>1408650827085</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="    new table&#10;">
+      <created>1408650937809</created>
+      <updated>1408650937809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234751000" />
+    <option name="totallyTimeSpent" value="234808000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1167,7 +1171,8 @@
     <MESSAGE value="Database and layout&#10;" />
     <MESSAGE value="            Database and layout&#10;" />
     <MESSAGE value="new table" />
-    <option name="LAST_COMMIT_MESSAGE" value="new table" />
+    <MESSAGE value="    new table&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="    new table&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1516,7 +1521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="51" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.8080439" vertical-offset="527" max-vertical-offset="1683">
+        <state line="61" column="4" selection-start="2616" selection-end="2616" vertical-scroll-proportion="0.9323583" vertical-offset="527" max-vertical-offset="1683">
           <folding />
         </state>
       </provider>

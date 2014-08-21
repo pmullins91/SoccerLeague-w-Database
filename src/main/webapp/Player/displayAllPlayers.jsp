@@ -53,7 +53,7 @@
     </style>
 </head>
 <body>
-<h2><center>Currently Registered Players</center></h2>
+<h2><center>Registered Players</center></h2>
 <%
     List<Player> players = (List<Player>) request.getAttribute("players");
 %>
