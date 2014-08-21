@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc9a765-50b1-4b55-84cb-297c7fff2000" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/HomePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/HomePage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="soccerleague.iws" />
@@ -70,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="displayAllPlayers.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="displayAllPlayers.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="35" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-6.8846154" vertical-offset="552" max-vertical-offset="1530">
+            <state line="57" column="51" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.8080439" vertical-offset="527" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
@@ -88,10 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="successfulPlayerRegistration.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="successfulPlayerRegistration.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="2" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.7447619" vertical-offset="306" max-vertical-offset="1020">
+            <state line="38" column="10" selection-start="1877" selection-end="1877" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-theme.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/css/bootstrap-theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="23" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7616">
               <folding />
             </state>
           </provider>
@@ -167,9 +173,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/bootstrap/css/bootstrap.css.map" />
         <option value="$PROJECT_DIR$/src/main/webapp/bootstrap/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/HomePage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" />
       </list>
     </option>
   </component>
@@ -1032,7 +1038,7 @@
       <workItem from="1408565719972" duration="373000" />
       <workItem from="1408567066399" duration="650000" />
       <workItem from="1408627502186" duration="13501000" />
-      <workItem from="1408645852763" duration="3570000" />
+      <workItem from="1408645852763" duration="4856000" />
     </task>
     <task id="LOCAL-00001" summary="Database and layout&#10;">
       <created>1408561310281</created>
@@ -1050,11 +1056,19 @@
       <created>1408647525679</created>
       <updated>1408647525679</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="            Database and layout&#10;">
+      <created>1408649657309</created>
+      <updated>1408649657309</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new table">
+      <created>1408650827085</created>
+      <updated>1408650827085</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233465000" />
+    <option name="totallyTimeSpent" value="234751000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1085,7 +1099,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33182332" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33182332" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1100,7 +1114,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28836834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28675282" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3216308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3216308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1151,7 +1165,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Database and layout&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database and layout&#10;" />
+    <MESSAGE value="            Database and layout&#10;" />
+    <MESSAGE value="new table" />
+    <option name="LAST_COMMIT_MESSAGE" value="new table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1165,13 +1181,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1939" column="25" selection-start="55992" selection-end="55992" vertical-scroll-proportion="0.0" vertical-offset="32963" max-vertical-offset="35972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
@@ -1484,9 +1493,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-6.8846154" vertical-offset="552" max-vertical-offset="1530">
+        <state line="38" column="10" selection-start="1877" selection-end="1877" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
@@ -1498,9 +1507,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="2" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.7447619" vertical-offset="306" max-vertical-offset="1020">
+        <state line="2" column="23" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="51" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.8080439" vertical-offset="527" max-vertical-offset="1683">
           <folding />
         </state>
       </provider>
