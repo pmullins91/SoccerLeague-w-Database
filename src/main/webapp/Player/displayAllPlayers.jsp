@@ -10,7 +10,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style type="text/css">
-        body{
+        body {
             padding-top: 70px;
         }
     </style>
@@ -47,38 +47,46 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style type="text/css">
-        .bs-example{
+        .bs-example {
             margin: 20px;
         }
     </style>
 </head>
 <body>
 <%
-    List<Player> players = (List<Player>)request.getAttribute("players");
+    List<Player> players = (List<Player>) request.getAttribute("players");
 %>
-<table align="center" border=".5" style="width:600px">
-    <tr>
 
-        <td width="30%">Name</td>
-        <td width="20%">Position</td>
-        <td width="20%">Country</td>
-        <td width="20%">Jersey</td>
+<div class="bs-example">
+    <table class="table table-striped">
+        <thead>
+        <tr>
 
-    </tr>
-    <% for(Player player : players) { %>
-<table align="center" border=".5" style="width:600px">
+            <th>Name</th>
+            <th>Position</th>
+            <th>Country</th>
+            <th>Jersey</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <% for (Player player : players) { %>
 
-    <tr>
+            <td><%=player.getFirstName() %> <%=player.getLastName() %></td>
+            <td><%=player.getPosition() %></td>
+            <td><%=player.getCountry() %></td>
+            <td><%=player.getJersey() %> </td>
 
-        <td width="30%"><%=player.getFirstName() %>
-        <%=player.getLastName() %>
-        <td width="20%"><%=player.getPosition() %></td>
-        <td width="20%"><%=player.getCountry() %></td>
-        <td width="20%"><%=player.getJersey() %></td>
+        </tr>
 
-    </tr>
-<% } %>
+        <% } %>
+
+        </tbody>
+    </table>
+
+</div>
+
+
 </body>
-
 </html>
 
