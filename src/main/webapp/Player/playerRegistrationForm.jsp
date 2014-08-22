@@ -27,9 +27,9 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="../HomePage.jsp" target="_blank">Home</a></li>
-                <li class="active"><a href="../Player/playerRegistrationForm.jsp" target="_blank">Player Registration</a></li>
-                <li><a href="/PlayerServlet" target="_blank">Registered Players</a></li>
+                <li><a href="../HomePage.jsp" >Home</a></li>
+                <li class="active"><a href="../Player/playerRegistrationForm.jsp" >Player Registration</a></li>
+                <li><a href="/PlayerServlet" >Registered Players</a></li>
             </ul>
         </div>
     </div>
