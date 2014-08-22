@@ -1,5 +1,3 @@
-<%@ page import="java.util.List" %>
-<%@ page import="com.patmullins.soccerleague.domain.Player" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +8,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style type="text/css">
-        body{
+        body {
             padding-top: 70px;
         }
     </style>
@@ -29,7 +27,7 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="#">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -61,17 +59,4 @@
         </div>
     </div>
 </nav>
-<%
-com.patmullins.soccerleague.domain.Player playerEntry = (com.patmullins.soccerleague.domain.Player) request.getAttribute("playerEntry");
-%>
-<center>
-<h3>Player registration is now completed. Please review your entered information.</h3><br>
-
-<h5><b>Player Name:</b> <%= playerEntry.getFirstName() + " " + playerEntry.getLastName()%><br></h5>
-    <h5><b>Position:</b> <%= playerEntry.getPosition()%><br></h5>
-        <h5><b>Country:</b> <%= playerEntry.getCountry()%><br></h5>
-            <h5><b>Jersey:</b> <%= playerEntry.getJersey()%></h5>
-</center>
-<center><a href="../HomePage.jsp" class="btn btn-primary btn-sm">Home</a></center>
-</body>
-</html>
+<h1>2ndLeaguePage</h1>
