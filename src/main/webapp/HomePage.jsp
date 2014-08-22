@@ -33,7 +33,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <%--<li class="active"><a href="HomePage.jsp" >Home</a></li>--%>
+                <li class="active"><a href="HomePage.jsp" >Home</a></li>
                 <%--<li><a href="../Player/playerRegistrationForm.jsp" >Player Registration</a></li>--%>
                 <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
                 <li class="dropdown">
