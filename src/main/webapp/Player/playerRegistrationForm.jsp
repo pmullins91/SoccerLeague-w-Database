@@ -31,7 +31,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="HomePage.jsp" >Home</a></li>
+                <li><a href="../HomePage.jsp" >Home</a></li>
                 <%--<li><a href="../Player/playerRegistrationForm.jsp" >Player Registration</a></li>--%>
                 <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
                 <li class="dropdown">
@@ -59,7 +59,13 @@
     </div>
 </nav>
 
-<h2><center>Player Registration Form</center></h2>
+<div class="bs-example">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Player Registration Form</h3>
+        </div>
+        <div class="panel-body">
+
 <div class="bs-example">
     <form method="post" action="${pageContext.request.contextPath}/PlayerServlet">
             <div class="form-group">
@@ -154,5 +160,8 @@
 
     </form>
 </div>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
