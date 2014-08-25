@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc9a765-50b1-4b55-84cb-297c7fff2000" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayerServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayerServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/TeamServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/TeamServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="soccerleague.iws" />
@@ -69,15 +67,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="successfulPlayerRegistration.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="3656" selection-end="3656" vertical-scroll-proportion="-18.0" vertical-offset="756" max-vertical-offset="1411">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PlayersRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepository.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,12 +94,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoccerLeagueController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SoccerLeagueController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="37" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.5346216" vertical-offset="416" max-vertical-offset="1241">
+            <state line="59" column="35" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1241">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="2" selection-start="488" selection-end="488" vertical-scroll-proportion="0.59008265" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -136,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/GetDataTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/ShowDatabasePlayers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/jdbc/SQLQueryWrapper.java" />
@@ -187,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayerServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/TeamServlet.java" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -996,7 +997,7 @@
       <workItem from="1408645852763" duration="4913000" />
       <workItem from="1408714143897" duration="3338000" />
       <workItem from="1408723440152" duration="10143000" />
-      <workItem from="1408975524078" duration="13356000" />
+      <workItem from="1408975524078" duration="13574000" />
     </task>
     <task id="LOCAL-00001" summary="Database and layout&#10;">
       <created>1408561310281</created>
@@ -1050,11 +1051,15 @@
       <created>1408995451484</created>
       <updated>1408995451484</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Model View Controller creation">
+      <created>1408996518796</created>
+      <updated>1408996518796</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261645000" />
+    <option name="totallyTimeSpent" value="261863000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1158,7 +1163,9 @@
     <MESSAGE value="Fixed the navbar and added some new features&#10;" />
     <MESSAGE value="Created the team classes and ready for the mvc" />
     <MESSAGE value="Created the team classes and ready for the mvc&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the team classes and ready for the mvc&#10;" />
+    <MESSAGE value="Model View Controller creation" />
+    <MESSAGE value="Model View Controller creation&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model View Controller creation&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1299,16 +1306,6 @@
         <state line="2146" column="32" selection-start="35591" selection-end="35591" vertical-scroll-proportion="0.0" vertical-offset="36090" max-vertical-offset="105553">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="454" selection-end="454" vertical-scroll-proportion="-5.78" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1521,9 +1518,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="37" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.5346216" vertical-offset="416" max-vertical-offset="1241">
+        <state line="59" column="35" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1241">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="2" selection-start="488" selection-end="488" vertical-scroll-proportion="0.59008265" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

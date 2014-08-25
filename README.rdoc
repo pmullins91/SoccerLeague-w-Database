@@ -16,7 +16,9 @@ firstName varchar,
 lastName varchar,
 playerPosition varchar,
 country varchar,
-jersey int
+jersey int,
+compLevel varchar
+
 );
 
 CREATE TABLE Teams (
