@@ -10,14 +10,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style type="text/css">
-        body {
+        body{
             padding-top: 70px;
         }
     </style>
 </head>
 <body>
-
-
 <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="container">
@@ -35,7 +33,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="HomePage.jsp" >Home</a></li>
+                <li><a href="../View/HomePage.jsp" >Home</a></li>
                 <%--<li><a href="../Player/teamRegistrationForm.jsp" >Player Registration</a></li>--%>
                 <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
                 <li class="dropdown">
@@ -54,8 +52,6 @@
                         <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
                         <li><a href="/TeamServlet">Registered Teams</a></li>
                         <li><a href="#">Team Selection</a></li>
-                        <%--<li class="divider"></li>--%>
-                        <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
                 </li>
             </ul>
