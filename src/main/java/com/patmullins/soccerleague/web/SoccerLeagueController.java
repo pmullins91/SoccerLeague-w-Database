@@ -33,7 +33,7 @@ public class SoccerLeagueController extends HttpServlet {
     else if (userPath.equals("/Team/teamRegistrationForm.jsp")){
             TeamsRepositoryImpl repository = new TeamsRepositoryImpl();
 
-        List<Team> teams = repository.findAllTeams();
+        List<Team> teams = repository.findAllChelsea();
         request.setAttribute("teams", teams);
 
         RequestDispatcher view = getServletContext().getRequestDispatcher("/Team/displayAllTeams.jsp");

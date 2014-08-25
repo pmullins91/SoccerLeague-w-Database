@@ -46,5 +46,23 @@ public class TeamsRepositoryImpl implements TeamsRepository {
         return teams;
     }
 
+    public List<Team> findAllChelsea(){
+         final ArrayList<Team> teams = new ArrayList<Team>();
+        jdbcTemplate.query("select * from Teams WHERE teamName = 'Chelsea FC'", new SQLQueryWrapper() {
+            public void interpretResults(ResultSet resultSet) throws SQLException {
+                while (resultSet.next()) {
+                    Team team = new Team();
+                    team.setTeamName(resultSet.getString("teamName"));
+                    team.setTeamCity(resultSet.getString("teamCity"));
+                    team.setTeamCompLevel(resultSet.getString("teamCompLevel"));
+                    teams.add(team);
+                }
+            }
+        });
 
-}
+        return teams;
+    }
+    }
+
+
+
