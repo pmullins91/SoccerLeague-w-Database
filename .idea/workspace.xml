@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="Z:\1MullinsPatrick\INHERE\SoccerLeague-w-Database" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -114,7 +114,7 @@
       <file leaf-file-name="SoccerLeagueController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.7400242" vertical-offset="0" max-vertical-offset="827">
+            <state line="39" column="0" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.5961306" vertical-offset="0" max-vertical-offset="827">
               <folding />
             </state>
           </provider>
@@ -993,7 +993,7 @@
       <workItem from="1408645852763" duration="4913000" />
       <workItem from="1408714143897" duration="3338000" />
       <workItem from="1408723440152" duration="10143000" />
-      <workItem from="1408975524078" duration="12294000" />
+      <workItem from="1408975524078" duration="12307000" />
     </task>
     <task id="LOCAL-00001" summary="Database and layout&#10;">
       <created>1408561310281</created>
@@ -1039,11 +1039,15 @@
       <created>1408995214342</created>
       <updated>1408995214342</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created the team classes and ready for the mvc&#10;">
+      <created>1408995441377</created>
+      <updated>1408995441377</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260583000" />
+    <option name="totallyTimeSpent" value="260596000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1117,7 +1121,8 @@
     <MESSAGE value="Fixed the navbar and added some new features" />
     <MESSAGE value="Fixed the navbar and added some new features&#10;" />
     <MESSAGE value="Created the team classes and ready for the mvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the team classes and ready for the mvc" />
+    <MESSAGE value="Created the team classes and ready for the mvc&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the team classes and ready for the mvc&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1491,7 +1496,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.7400242" vertical-offset="0" max-vertical-offset="827">
+        <state line="39" column="0" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.5961306" vertical-offset="0" max-vertical-offset="827">
           <folding />
         </state>
       </provider>
