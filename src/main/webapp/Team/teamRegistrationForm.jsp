@@ -1,5 +1,3 @@
-<%@ page import="java.util.List" %>
-<%@ page import="com.patmullins.soccerleague.domain.Player" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,15 +33,15 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="HomePage.jsp" >Home</a></li>
-                <%--<li><a href="../Player/teamRegistrationForm.jsp" >Player Registration</a></li>--%>
-                <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
+                <li><a href="../View/HomePage.jsp" >Home</a></li>
+                <%--<li><a href="../Team/teamRegistrationForm.jsp" >Team Registration</a></li>--%>
+                <%--<li><a href="/TeamServlet" >Registered Teams</a></li>--%>
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
-                        <li><a href="/PlayerServlet">Registered Players</a></li>
-                        <li><a href="#">Available Players</a></li>
+                        <li><a href=../Player/playerRegistrationForm.jsp>Team Registration</a></li>
+                        <li><a href="/PlayerServlet">Registered Teams</a></li>
+                        <li><a href="#">Available Teams</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -62,47 +60,62 @@
         </div>
     </div>
 </nav>
-
-<h2><center>Registered Players</center></h2>
-<%
-    List<Player> players = (List<Player>) request.getAttribute("players");
-%>
+<div class="bs-example">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">Team Registration Form</h3>
+        </div>
+        <div class="panel-body">
 
 <div class="bs-example">
-    <table class="table table-striped">
-        <thead>
-        <tr>
-
-            <th>Name</th>
-            <th>Position</th>
-            <th>Country</th>
-            <th>Jersey</th>
-            <th>Competition Level</th>
-
-
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <% for (Player player : players) { %>
-
-            <td><%=player.getFirstName() %> <%=player.getLastName() %></td>
-            <td><%=player.getPosition() %></td>
-            <td><%=player.getCountry() %></td>
-            <td><%=player.getJersey() %> </td>
-            <td><%=player.getComplevel() %> </td>
+    <form method="post" action="${pageContext.request.contextPath}/TeamServlet">
+            <div class="form-group">
+            <label for="teamName" class="control-label col-xs-2">Team Name: </label>
+            <div class="col-xs-10">
+                <input type="text" class="form-control" id="teamName" name="teamName" >
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
 
 
-        </tr>
 
-        <% } %>
 
-        </tbody>
-    </table>
+        <div class="form-group">
+            <label for="teamCity" class="control-label col-xs-2">Team City: </label>
+            <div class="col-xs-10">
+                <input type="text" class="form-control" id="teamCity" name="teamCity" >
+            </div>
+        </div>
+        <br>
+        <br>
 
+        <div class="form-group">
+            <label for="teamCompLevel" class="control-label col-xs-2">Desired Competition Level: </label>
+            <div class="col-xs-10">
+                <select  class="form-control" id="teamCompLevel" name="teamCompLevel">
+                    <option></option>
+                    <option>Premiere League</option>
+                    <option>2nd Division</option>
+                    <option>Coed</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </form>
 </div>
-
-
+    </div>
+    </div>
+    </div>
 </body>
 </html>
-

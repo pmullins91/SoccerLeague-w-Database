@@ -26,13 +26,13 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="../View/HomePage.jsp">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="../HomePage.jsp" >Home</a></li>
-                <%--<li><a href="../Player/playerRegistrationForm.jsp" >Player Registration</a></li>--%>
+                <li><a href="../View/HomePage.jsp" >Home</a></li>
+                <%--<li><a href="../Player/teamRegistrationForm.jsp" >Player Registration</a></li>--%>
                 <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
@@ -47,11 +47,9 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">Team Registration</a></li>
-                        <li><a href="#">Registered Teams</a></li>
+                        <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
+                        <li><a href="/TeamServlet">Registered Teams</a></li>
                         <li><a href="#">Team Selection</a></li>
-                        <%--<li class="divider"></li>--%>
-                        <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
                 </li>
             </ul>
@@ -145,6 +143,20 @@
             <label for="jersey" class="control-label col-xs-2">Jersey: </label>
             <div class="col-xs-10">
                 <input type="number" class="form-control" id="jersey" name="jersey" min="0" max="99">
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="form-group">
+            <label for="compLevel" class="control-label col-xs-2">Desired Competition Level: </label>
+            <div class="col-xs-10">
+                <select  class="form-control" id="compLevel" name="compLevel">
+                    <option></option>
+                    <option>Premiere League</option>
+                    <option>2nd Division</option>
+                    <option>Coed</option>
+                </select>
             </div>
         </div>
         <br>

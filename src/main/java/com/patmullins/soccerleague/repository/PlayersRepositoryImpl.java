@@ -22,7 +22,7 @@ public class PlayersRepositoryImpl implements PlayersRepository {
     public void save(final Player player) {
         jdbcTemplate.execute(new SQLStatementWrapper() {
             public void execute(Statement statement) throws SQLException {
-                statement.execute("insert into Players (firstName, lastName, playerPosition , country, jersey) values ('" + player.getFirstName() + "', '" + player.getLastName() + "','" + player.getPosition() + "','" + player.getCountry() + "', '" + player.getJersey() + "')");
+                statement.execute("insert into Players (firstName, lastName, playerPosition , country, jersey, compLevel) values ('" + player.getFirstName() + "', '" + player.getLastName() + "','" + player.getPosition() + "','" + player.getCountry() + "', '" + player.getJersey() +"', '"+ player.getComplevel() + "')");
             }
         });
     }
@@ -38,6 +38,7 @@ public class PlayersRepositoryImpl implements PlayersRepository {
                     player.setPosition(resultSet.getString("playerPosition"));
                     player.setCountry(resultSet.getString("country"));
                     player.setJersey(resultSet.getInt("jersey"));
+                    player.setCompLevel(resultSet.getString("compLevel"));
                     players.add(player);
                 }
             }

@@ -10,11 +10,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.List;
 
 
-public class PlayerServlet extends HttpServlet {
+public class SoccerLeagueController extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         PlayersRepository repository = new PlayersRepositoryImpl();
@@ -25,24 +24,24 @@ public class PlayerServlet extends HttpServlet {
         playerEntry.setPosition(request.getParameter("position"));
         playerEntry.setCountry(request.getParameter("country"));
         playerEntry.setJersey(Integer.parseInt(request.getParameter("jersey")));
-        playerEntry.setCompLevel(request.getParameter("compLevel"));
 
         request.setAttribute("playerEntry", playerEntry);
 
         repository.save(playerEntry);
 
-        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/successfulPlayerRegistration.jsp");
+        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/successfulTeamRegistration.jsp");
         view.forward(request, response);
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
 
         List<Player> players = repository.findAllPlayers();
         request.setAttribute("players", players);
 
-        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllPlayers.jsp");
+        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllTeams.jsp");
         view.forward(request, response);
     }
 

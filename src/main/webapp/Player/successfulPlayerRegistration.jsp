@@ -29,13 +29,13 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="../View/HomePage.jsp">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="HomePage.jsp" >Home</a></li>
-                <%--<li><a href="../Player/playerRegistrationForm.jsp" >Player Registration</a></li>--%>
+                <li><a href="../View/HomePage.jsp" >Home</a></li>
+                <%--<li><a href="../Player/teamRegistrationForm.jsp" >Player Registration</a></li>--%>
                 <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
@@ -50,11 +50,9 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">Team Registration</a></li>
-                        <li><a href="#">Registered Teams</a></li>
+                        <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
+                        <li><a href="/TeamServlet">Registered Teams</a></li>
                         <li><a href="#">Team Selection</a></li>
-                        <%--<li class="divider"></li>--%>
-                        <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
                 </li>
             </ul>
@@ -71,7 +69,9 @@ com.patmullins.soccerleague.domain.Player playerEntry = (com.patmullins.soccerle
     <h5><b>Position:</b> <%= playerEntry.getPosition()%><br></h5>
         <h5><b>Country:</b> <%= playerEntry.getCountry()%><br></h5>
             <h5><b>Jersey:</b> <%= playerEntry.getJersey()%></h5>
+    <h5><b>Competition Level:</b> <%= playerEntry.getComplevel()%></h5>
+
 </center>
-<center><a href="../HomePage.jsp" class="btn btn-primary btn-sm">Home</a></center>
+<center><a href="../View/HomePage.jsp" class="btn btn-primary btn-sm">Home</a></center>
 </body>
 </html>

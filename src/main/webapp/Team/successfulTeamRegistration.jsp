@@ -1,5 +1,6 @@
 <%@ page import="java.util.List" %>
 <%@ page import="com.patmullins.soccerleague.domain.Player" %>
+<%@ page import="com.patmullins.soccerleague.domain.Team" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,15 +36,15 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="HomePage.jsp" >Home</a></li>
-                <%--<li><a href="../Player/teamRegistrationForm.jsp" >Player Registration</a></li>--%>
-                <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
+                <li><a href="../View/HomePage.jsp" >Home</a></li>
+                <%--<li><a href="../Team/teamRegistrationForm.jsp" >Team Registration</a></li>--%>
+                <%--<li><a href="/TeamServlet" >Registered Teams</a></li>--%>
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
-                        <li><a href="/PlayerServlet">Registered Players</a></li>
-                        <li><a href="#">Available Players</a></li>
+                        <li><a href=../Player/playerRegistrationForm.jsp>Team Registration</a></li>
+                        <li><a href="/PlayerServlet">Registered Teams</a></li>
+                        <li><a href="#">Available Teams</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -62,47 +63,17 @@
         </div>
     </div>
 </nav>
-
-<h2><center>Registered Players</center></h2>
 <%
-    List<Player> players = (List<Player>) request.getAttribute("players");
+Team teamEntry = (Team) request.getAttribute("teamEntry");
 %>
+<center>
+<h3>Player registration is now completed. Please review your entered information.</h3><br>
 
-<div class="bs-example">
-    <table class="table table-striped">
-        <thead>
-        <tr>
+<h5><b>Player Name:</b> <%= teamEntry.getTeamName() %><br></h5>
+    <h5><b>Position:</b> <%= teamEntry.getTeamCity()%><br></h5>
+        <h5><b>Country:</b> <%= teamEntry.getTeamCompLevel()%><br></h5>
 
-            <th>Name</th>
-            <th>Position</th>
-            <th>Country</th>
-            <th>Jersey</th>
-            <th>Competition Level</th>
-
-
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <% for (Player player : players) { %>
-
-            <td><%=player.getFirstName() %> <%=player.getLastName() %></td>
-            <td><%=player.getPosition() %></td>
-            <td><%=player.getCountry() %></td>
-            <td><%=player.getJersey() %> </td>
-            <td><%=player.getComplevel() %> </td>
-
-
-        </tr>
-
-        <% } %>
-
-        </tbody>
-    </table>
-
-</div>
-
-
+</center>
+<center><a href="../View/HomePage.jsp" class="btn btn-primary btn-sm">Home</a></center>
 </body>
 </html>
-

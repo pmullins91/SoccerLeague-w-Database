@@ -1,5 +1,3 @@
-<%@ page import="java.util.List" %>
-<%@ page import="com.patmullins.soccerleague.domain.Player" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +15,6 @@
 </head>
 <body>
 
-
 <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="container">
@@ -30,7 +27,7 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../View/HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="#">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -62,47 +59,4 @@
         </div>
     </div>
 </nav>
-
-<h2><center>Registered Players</center></h2>
-<%
-    List<Player> players = (List<Player>) request.getAttribute("players");
-%>
-
-<div class="bs-example">
-    <table class="table table-striped">
-        <thead>
-        <tr>
-
-            <th>Name</th>
-            <th>Position</th>
-            <th>Country</th>
-            <th>Jersey</th>
-            <th>Competition Level</th>
-
-
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <% for (Player player : players) { %>
-
-            <td><%=player.getFirstName() %> <%=player.getLastName() %></td>
-            <td><%=player.getPosition() %></td>
-            <td><%=player.getCountry() %></td>
-            <td><%=player.getJersey() %> </td>
-            <td><%=player.getComplevel() %> </td>
-
-
-        </tr>
-
-        <% } %>
-
-        </tbody>
-    </table>
-
-</div>
-
-
-</body>
-</html>
-
+<h1>2ndLeaguePage</h1>
