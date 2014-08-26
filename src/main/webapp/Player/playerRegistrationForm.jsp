@@ -58,7 +58,7 @@
 </nav>
 
 <div class="bs-example">
-    <div class="panel panel-info">
+    <div class="panel panel-warning">
         <div class="panel-heading">
             <h3 class="panel-title">Player Registration Form</h3>
         </div>
@@ -164,7 +164,7 @@
 
         <div class="form-group">
             <div class="col-xs-offset-2 col-xs-10">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-danger">Submit</button>
             </div>
         </div>
         <br>

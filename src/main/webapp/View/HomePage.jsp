@@ -61,24 +61,24 @@
 <div class="container">
     <div class="jumbotron">
         <center><h1>Des Moines Soccer League</h1>
-        <p>Bringing you a inner city soccer league, sign up now and enjoy a competitive edge.<center><a href="../Player/playerRegistrationForm.jsp" class="btn btn-success btn-lg">Get started today</a></center></p>
+        <p>Bringing you a inner city soccer league, sign up now and enjoy a competitive edge.<center><a href="../Player/playerRegistrationForm.jsp" class="btn btn-danger btn-lg">Get started today</a></center></p>
         </center>
     </div>
     <div class="row">
         <div class="col-xs-4">
             <h2>Premiere League</h2>
             <p>The premiere league one of the most competitive leagues you can find. The top team across Iowa try to win, the strongest competition ou there.</p>
-            <p><a href="PremiereLeaguePage.jsp" class="btn btn-success">Learn More &raquo;</a></p>
+            <p><a href="PremiereLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
         </div>
         <div class="col-xs-4">
             <h2>2nd Division</h2>
             <p>The 2nd division is a strong league of teams that have the desire to play in the premiere league but have yet to make it.</p>
-            <p><a href="2ndLeaguePage.jsp" class="btn btn-success">Learn More &raquo;</a></p>
+            <p><a href="2ndLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
         </div>
         <div class="col-xs-4">
             <h2>Coed</h2>
             <p>Coed is a mixture of men and women, a less competitive league but promised to have a lot of fun.</p>
-            <p><a href="CoedPage.jsp" class="btn btn-success">Learn More &raquo;</a></p>
+            <p><a href="CoedPage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
         </div>
     </div>
     <hr>
