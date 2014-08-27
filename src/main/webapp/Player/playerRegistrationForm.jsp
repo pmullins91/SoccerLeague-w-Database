@@ -87,6 +87,37 @@
         <br>
 
 
+        <div class="form-group">
+            <label for="playerTeamName" class="control-label col-xs-2">Team Selection: </label>
+            <div class="col-xs-10">
+                <select  class="form-control" id="playerTeamName" name="playerTeamName">
+                    <option></option>
+                    <option>Arsenal</option>
+                    <option>Aston Villa</option>
+                    <option>Barnsley</option>
+                    <option>Chelsea</option>
+                    <option>Crystal Palace</option>
+                    <option>Everton</option>
+                    <option>Hull City</option>
+                    <option>Leicaster City</option>
+                    <option>Liverpool</option>
+                    <option>Manchester City</option>
+                    <option>Manchester United</option>
+                    <option>Newcastle United</option>
+                    <option>Queens Park Rangers</option>
+                    <option>Southampton</option>
+                    <option>Stoke City</option>
+                    <option>Sunderland</option>
+                    <option>Swansea</option>
+                    <option>Tottenham</option>
+                    <option>West Brom</option>
+                    <option>West Ham</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <br>
+
 
 
 
@@ -141,20 +172,6 @@
             <label for="jersey" class="control-label col-xs-2">Jersey: </label>
             <div class="col-xs-10">
                 <input type="number" class="form-control" id="jersey" name="jersey" min="0" max="99">
-            </div>
-        </div>
-        <br>
-        <br>
-
-        <div class="form-group">
-            <label for="compLevel" class="control-label col-xs-2">Desired Competition Level: </label>
-            <div class="col-xs-10">
-                <select  class="form-control" id="compLevel" name="compLevel">
-                    <option></option>
-                    <option>Premiere League</option>
-                    <option>2nd Division</option>
-                    <option>Coed</option>
-                </select>
             </div>
         </div>
         <br>

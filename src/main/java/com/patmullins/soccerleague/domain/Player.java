@@ -7,6 +7,7 @@ public class Player {
     private String country;
     private int jersey;
     private String compLevel;
+    private String playerTeamName;
 
     public String getFirstName() {
         return firstName;
@@ -48,7 +49,8 @@ public class Player {
         this.jersey = jersey;
     }
 
-    public String getComplevel(){return compLevel;}
+    public String getPlayerTeamName() { return playerTeamName;}
 
-    public void setCompLevel(String compLevel){this.compLevel = compLevel;}
+    public void setPlayerTeamName(String playerTeamName){this.playerTeamName = playerTeamName;}
+
 }

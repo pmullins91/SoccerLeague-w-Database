@@ -22,28 +22,40 @@ public class SoccerLeagueController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String userPath = request.getServletPath();
+        if (userPath.equals("/teamList")){
 
-        if (userPath.equals("/playerList")){
-        PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
-
-        List<Player> players = repository.findAllPlayers();
-        request.setAttribute("players", players);
-
-        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllPlayers.jsp");
-        view.forward(request, response);
-
-
-    }
-    else if (userPath.equals("/teamList")){
             TeamsRepositoryImpl repository = new TeamsRepositoryImpl();
 
-        List<Team> teams = repository.findAllChelsea();
-        request.setAttribute("teams", teams);
+            List<Team> teams = repository.findAllTeams();
+            request.setAttribute("teams", teams);
 
-        RequestDispatcher view = getServletContext().getRequestDispatcher("/Team/displayAllTeams.jsp");
-        view.forward(request, response);
+            RequestDispatcher view = getServletContext().getRequestDispatcher("/Team/displayAllTeams.jsp");
+            view.forward(request, response);
+
     }
+    else if (userPath.equals("/playerList")){
+
+            PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
+
+            List<Player> players = repository.findAllPlayers();
+            request.setAttribute("players", players);
+
+            RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllPlayers.jsp");
+            view.forward(request, response);
+        }
+
+        else if(userPath.equals("/arsenalTeams")){
+            PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
+
+            List<Player> players = repository.findArsenalPlayers();
+            request.setAttribute("arsenalPlayers", players);
+
+            RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayArsenalPlayers.jsp");
+            view.forward(request, response);
+
+        }
     }
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String userPath = request.getServletPath();
 
@@ -53,6 +65,7 @@ public class SoccerLeagueController extends HttpServlet {
         Player playerEntry = new Player();
         playerEntry.setFirstName(request.getParameter("firstName"));
         playerEntry.setLastName(request.getParameter("lastName"));
+        playerEntry.setPlayerTeamName(request.getParameter("playerTeamName"));
         playerEntry.setPosition(request.getParameter("position"));
         playerEntry.setCountry(request.getParameter("country"));
         playerEntry.setJersey(Integer.parseInt(request.getParameter("jersey")));
@@ -64,6 +77,7 @@ public class SoccerLeagueController extends HttpServlet {
         RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/successfulPlayerRegistration.jsp");
         view.forward(request, response);
         }
+
         else if (userPath.equals("/displayTeams")){
             TeamsRepository repository = new TeamsRepositoryImpl();
 
@@ -78,6 +92,7 @@ public class SoccerLeagueController extends HttpServlet {
 
             RequestDispatcher view = getServletContext().getRequestDispatcher("/Team/successfulTeamRegistration.jsp");
             view.forward(request, response);
+
         }
     }
 

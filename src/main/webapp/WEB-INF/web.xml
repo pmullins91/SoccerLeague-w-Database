@@ -26,6 +26,10 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
         <servlet-name>SoccerLeagueController</servlet-name>
         <url-pattern>/displayTeams</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/arsenalTeams</url-pattern>
+    </servlet-mapping>
 
 
 

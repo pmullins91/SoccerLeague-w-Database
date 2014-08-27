@@ -4,6 +4,7 @@ public class Team {
     private String teamName;
     private String teamCity;
     private String teamCompLevel;
+    private String playerTeamName;
 
     public String getTeamName() {
         return teamName;
@@ -29,4 +30,4 @@ public class Team {
         this.teamCompLevel = teamCompLevel;
     }
 
-}
+    }

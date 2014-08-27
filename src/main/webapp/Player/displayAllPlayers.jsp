@@ -68,10 +68,10 @@
         <tr>
 
             <th>Name</th>
+            <th>Team Name</th>
             <th>Position</th>
             <th>Country</th>
             <th>Jersey</th>
-            <th>Competition Level</th>
 
 
         </tr>
@@ -81,10 +81,10 @@
             <% for (Player player : players) { %>
 
             <td><%=player.getFirstName() %> <%=player.getLastName() %></td>
+            <td><%=player.getPlayerTeamName() %></td>
             <td><%=player.getPosition() %></td>
             <td><%=player.getCountry() %></td>
             <td><%=player.getJersey() %> </td>
-            <td><%=player.getComplevel() %> </td>
 
 
         </tr>

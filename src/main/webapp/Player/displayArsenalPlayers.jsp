@@ -1,6 +1,5 @@
 <%@ page import="java.util.List" %>
 <%@ page import="com.patmullins.soccerleague.domain.Player" %>
-<%@ page import="com.patmullins.soccerleague.domain.Team" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,14 +10,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style type="text/css">
-        body {
+        body{
             padding-top: 70px;
         }
     </style>
 </head>
 <body>
-
-
 <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="container">
@@ -37,14 +34,12 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
                 <li><a href="../View/HomePage.jsp" >Home</a></li>
-                <%--<li><a href="../Team/teamRegistrationForm.jsp" >Team Registration</a></li>--%>
-                <%--<li><a href="/teamList" >Registered Teams</a></li>--%>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href=../Player/playerRegistrationForm.jsp>Team Registration</a></li>
-                        <li><a href="/playerList">Registered Teams</a></li>
-                        <li><a href="#">Available Teams</a></li>
+                        <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
+                        <li><a href="/playerList">Registered Players</a></li>
+                        <li><a href="#">Available Players</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -55,25 +50,53 @@
                         <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
                         <li><a href="/teamList">Registered Teams</a></li>
                         <li><a href="#">Team Selection</a></li>
-                        <%--<li class="divider"></li>--%>
-                        <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<h2><center>Registered Players</center></h2>
 <%
-Team teamEntry = (Team) request.getAttribute("teamEntry");
+    List<Player> players = (List<Player>) request.getAttribute("arsenalPlayers");
 %>
-<center>
-<h3>Player registration is now completed. Please review your entered information.</h3><br>
 
-<h5><b>Player Name:</b> <%= teamEntry.getTeamName() %><br></h5>
-    <h5><b>Position:</b> <%= teamEntry.getTeamCity()%><br></h5>
-        <h5><b>Competition Level:</b> <%= teamEntry.getTeamCompLevel()%><br></h5>
+<div class="bs-example">
+    <table class="table table-striped">
+        <thead>
+        <tr>
 
-</center>
-<center><a href="../View/HomePage.jsp" class="btn btn-primary btn-sm">Home</a></center>
+            <th>Name</th>
+            <th>Team Name</th>
+            <th>Position</th>
+            <th>Country</th>
+            <th>Jersey</th>
+
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <% for (Player player : players) { %>
+
+            <td><%=player.getFirstName() %> <%=player.getLastName() %></td>
+            <td><%=player.getPlayerTeamName() %></td>
+            <td><%=player.getPosition() %></td>
+            <td><%=player.getCountry() %></td>
+            <td><%=player.getJersey() %> </td>
+
+
+        </tr>
+
+        <% } %>
+
+        </tbody>
+    </table>
+
+</div>
+
+
 </body>
 </html>
+

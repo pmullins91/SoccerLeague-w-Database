@@ -64,10 +64,11 @@ com.patmullins.soccerleague.domain.Player playerEntry = (com.patmullins.soccerle
 <h3>Player registration is now completed. Please review your entered information.</h3><br>
 
 <h5><b>Player Name:</b> <%= playerEntry.getFirstName() + " " + playerEntry.getLastName()%><br></h5>
+    <h5><b>Team: </b> <%= playerEntry.getPlayerTeamName()%></h5>
     <h5><b>Position:</b> <%= playerEntry.getPosition()%><br></h5>
-        <h5><b>Country:</b> <%= playerEntry.getCountry()%><br></h5>
-            <h5><b>Jersey:</b> <%= playerEntry.getJersey()%></h5>
-    <h5><b>Competition Level:</b> <%= playerEntry.getComplevel()%></h5>
+    <h5><b>Country:</b> <%= playerEntry.getCountry()%><br></h5>
+    <h5><b>Jersey:</b> <%= playerEntry.getJersey()%></h5>
+
 
 </center>
 <center><a href="../View/HomePage.jsp" class="btn btn-primary btn-sm">Home</a></center>

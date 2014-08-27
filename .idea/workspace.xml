@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc9a765-50b1-4b55-84cb-297c7fff2000" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/View/CoedPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/View/2ndLeaguePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/View/2ndLeaguePage.jsp" />
+    <list default="true" id="3dc9a765-50b1-4b55-84cb-297c7fff2000" name="Default" comment="Model View Controller working&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/View/TeamSelection.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Player/displayArsenalPlayers.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/jdbc/JDBCTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/jdbc/JDBCTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/View/PremiereLeaguePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/View/PremiereLeaguePage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Player.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Team.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Team.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Team/displayAllTeams.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Team/displayAllTeams.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soccerleague.iml" afterPath="$PROJECT_DIR$/soccerleague.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Team/successfulTeamRegistration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Team/successfulTeamRegistration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Team/teamRegistrationForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Team/teamRegistrationForm.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -81,46 +79,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="successfulPlayerRegistration.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
+      <file leaf-file-name="playerRegistrationForm.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="20" selection-start="1700" selection-end="1700" vertical-scroll-proportion="-5.769231" vertical-offset="479" max-vertical-offset="1377">
+            <state line="176" column="12" selection-start="6931" selection-end="6931" vertical-scroll-proportion="-7.6923075" vertical-offset="2792" max-vertical-offset="3400">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teamRegistrationForm.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/teamRegistrationForm.jsp">
+      <file leaf-file-name="successfulTeamRegistration.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/successfulTeamRegistration.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="1612" selection-end="1612" vertical-scroll-proportion="-5.769231" vertical-offset="428" max-vertical-offset="2057">
+            <state line="74" column="0" selection-start="3577" selection-end="3577" vertical-scroll-proportion="-16.192308" vertical-offset="837" max-vertical-offset="1445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PremiereLeaguePage.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/View/PremiereLeaguePage.jsp">
+      <file leaf-file-name="displayArsenalPlayers.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayArsenalPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="18" selection-start="2248" selection-end="2248" vertical-scroll-proportion="-30.076923" vertical-offset="0" max-vertical-offset="1105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="displayAllTeams.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/displayAllTeams.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.72629696" vertical-offset="903" max-vertical-offset="1717">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2ndLeaguePage.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/View/2ndLeaguePage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="28" selection-start="1594" selection-end="1594" vertical-scroll-proportion="-5.769231" vertical-offset="445" max-vertical-offset="1105">
+            <state line="97" column="0" selection-start="2983" selection-end="3679" vertical-scroll-proportion="-16.192308" vertical-offset="1228" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
@@ -129,8 +109,29 @@
       <file leaf-file-name="CoedPage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/View/CoedPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="32" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-5.769231" vertical-offset="445" max-vertical-offset="1105">
+            <state line="51" column="42" selection-start="0" selection-end="2869" vertical-scroll-proportion="-16.23077" vertical-offset="445" max-vertical-offset="1105">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamSelection.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/View/TeamSelection.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="47" selection-start="3093" selection-end="3093" vertical-scroll-proportion="-12.269231" vertical-offset="922" max-vertical-offset="1581">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayersRepositoryImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="27" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.45249596" vertical-offset="382" max-vertical-offset="1003">
+              <folding>
+                <element signature="e#1264#1272#0" expanded="true" />
+                <marker date="1409168057961" expanded="true" signature="838:1129" placeholder="insert into ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,9 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/playerRegistration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/PlayerInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayerDatabaseServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayersServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/DatabaseResultsServlet.java" />
@@ -172,10 +170,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/view/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayerUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Team.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/PlayerServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/TeamServlet.java" />
         <option value="$PROJECT_DIR$/README.rdoc" />
@@ -187,18 +182,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/jdbc/JDBCTemplate.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/View/Coed.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/WebServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Team/successfulTeamRegistration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Team/displayAllTeams.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Team/teamRegistrationForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/View/2ndLeaguePage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/View/CoedPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/View/PremiereLeaguePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Team.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Team/successfulTeamRegistration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/displayArsenalPlayers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/View/TeamSelection.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java" />
       </list>
     </option>
   </component>
@@ -247,8 +248,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="994" />
+    <option name="x" value="1272" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -402,10 +405,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Team" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -750,11 +749,11 @@
       <recent name="com.patmullins.soccerleague.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\1MullinsPatrick\INHERE\SoccerLeague-w-Database\src\main\webapp\Team" />
+      <recent name="Z:\1MullinsPatrick\INHERE\SoccerLeague-w-Database\src\main\webapp\View" />
       <recent name="Z:\1MullinsPatrick\INHERE\SoccerLeague-w-Database\src\main\webapp\Player" />
+      <recent name="Z:\1MullinsPatrick\INHERE\SoccerLeague-w-Database\src\main\webapp\Team" />
       <recent name="Z:\1MullinsPatrick\INHERE\SoccerLeague-w-Database\src\main\java\com\patmullins\soccerleague\repository" />
       <recent name="Z:\1MullinsPatrick\SoccerLeague-w-Database\src\main\webapp" />
-      <recent name="C:\Users\pair13\Documents\GitHub\soccerleague-master\SoccerLeague\src\main\webapp" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.patmullins.soccerleague.web" />
@@ -1110,7 +1109,7 @@
       <workItem from="1408975524078" duration="16781000" />
       <workItem from="1408999933177" duration="30000" />
       <workItem from="1409072498452" duration="7641000" />
-      <workItem from="1409147130521" duration="6320000" />
+      <workItem from="1409147130521" duration="13701000" />
     </task>
     <task id="LOCAL-00001" summary="Database and layout&#10;">
       <created>1408561310281</created>
@@ -1184,11 +1183,15 @@
       <created>1409075328493</created>
       <updated>1409075328493</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Model View Controller working&#10;&#10;">
+      <created>1409156772268</created>
+      <updated>1409156772268</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279061000" />
+    <option name="totallyTimeSpent" value="286442000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1211,7 +1214,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="994" extended-state="0" />
+    <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1219,12 +1222,12 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33055887" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33032694" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32356256" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23224352" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1233,8 +1236,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28836834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29050738" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23305589" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28675282" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23224352" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1294,7 +1297,8 @@
     <MESSAGE value="Created the team classes and ready for the mvc&#10;" />
     <MESSAGE value="Model View Controller creation" />
     <MESSAGE value="Model View Controller creation&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model View Controller creation&#10;" />
+    <MESSAGE value="Model View Controller working&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model View Controller working&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1458,22 +1462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="e#269#270#0" expanded="false" />
-            <element signature="e#309#310#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#503#504#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#597#598#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/View/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1484,42 +1472,12 @@
         <state line="16" column="3" selection-start="245" selection-end="245" vertical-scroll-proportion="0.16876972" vertical-offset="165" max-vertical-offset="799" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="61" selection-start="1095" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <element signature="method#getComplevel#0;class#Player#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="2" selection-start="488" selection-end="488" vertical-scroll-proportion="-7.14" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/TeamsRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="5" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/css/bootstrap.css">
@@ -1555,65 +1513,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/successfulTeamRegistration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="37" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-8.807693" vertical-offset="638" max-vertical-offset="1445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="25" selection-start="2282" selection-end="2282" vertical-scroll-proportion="-11.0" vertical-offset="462" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="28" selection-start="1608" selection-end="1608" vertical-scroll-proportion="-5.4615383" vertical-offset="436" max-vertical-offset="3111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="1700" selection-end="1700" vertical-scroll-proportion="-5.769231" vertical-offset="479" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/teamRegistrationForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="1612" selection-end="1612" vertical-scroll-proportion="-5.769231" vertical-offset="428" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/View/2ndLeaguePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="28" selection-start="1594" selection-end="1594" vertical-scroll-proportion="-5.769231" vertical-offset="445" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/View/CoedPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="32" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-5.769231" vertical-offset="445" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="30" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.3144654" vertical-offset="462" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
@@ -1625,19 +1527,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/teamRegistrationForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.4940171" vertical-offset="0" max-vertical-offset="1530">
+        <state line="34" column="32" selection-start="1612" selection-end="1612" vertical-scroll-proportion="25.653847" vertical-offset="1245" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="3446" selection-end="3446" vertical-scroll-proportion="-22.884615" vertical-offset="595" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/displayAllTeams.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="31" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.3646833" vertical-offset="1170" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/TeamsRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="173" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1003">
+          <folding>
+            <marker date="1408998804908" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="18" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding>
+            <element signature="method#getPlayerTeamName#0;class#Player#0" expanded="true" />
+            <element signature="method#setPlayerTeamName#0;class#Player#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/displayAllTeams.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.72629696" vertical-offset="903" max-vertical-offset="1717">
+        <state line="176" column="12" selection-start="6931" selection-end="6931" vertical-scroll-proportion="-7.6923075" vertical-offset="2792" max-vertical-offset="3400">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Team/successfulTeamRegistration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="3577" selection-end="3577" vertical-scroll-proportion="-16.192308" vertical-offset="837" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="3600" selection-end="3600" vertical-scroll-proportion="1.1677631" vertical-offset="769" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/View/CoedPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="42" selection-start="0" selection-end="2869" vertical-scroll-proportion="-16.23077" vertical-offset="445" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayArsenalPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="2983" selection-end="3679" vertical-scroll-proportion="-16.192308" vertical-offset="1228" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="10" selection-start="2832" selection-end="2832" vertical-scroll-proportion="-14.923077" vertical-offset="564" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="34" selection-start="1178" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/View/TeamSelection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="47" selection-start="3093" selection-end="3093" vertical-scroll-proportion="-12.269231" vertical-offset="922" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="96" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.5346216" vertical-offset="552" max-vertical-offset="1785">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="27" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.45249596" vertical-offset="382" max-vertical-offset="1003">
+          <folding>
+            <element signature="e#1264#1272#0" expanded="true" />
+            <marker date="1409168057961" expanded="true" signature="838:1129" placeholder="insert into ..." />
+          </folding>
         </state>
       </provider>
     </entry>
