@@ -48,7 +48,7 @@
                     <ul role="menu" class="dropdown-menu">
                         <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
                         <li><a href="/teamList">Registered Teams</a></li>
-                        <li><a href="#">Team Selection</a></li>
+                        <li><a href="../View/TeamSelection.jsp">Team Selection</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>

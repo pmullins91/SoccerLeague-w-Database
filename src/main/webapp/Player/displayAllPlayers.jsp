@@ -1,5 +1,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="com.patmullins.soccerleague.domain.Player" %>
+<%@ page import="com.patmullins.soccerleague.repository.PlayersRepositoryImpl" %>
+<%@ page import="com.patmullins.soccerleague.repository.PlayersRepository" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,7 +51,7 @@
                     <ul role="menu" class="dropdown-menu">
                         <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
                         <li><a href="/teamList">Registered Teams</a></li>
-                        <li><a href="#">Team Selection</a></li>
+                        <li><a href="../View/TeamSelection.jsp">Team Selection</a></li>
                     </ul>
                 </li>
             </ul>
@@ -59,6 +61,8 @@
 
 <h2><center>Registered Players</center></h2>
 <%
+    PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
+
     List<Player> players = (List<Player>) request.getAttribute("players");
 %>
 
@@ -72,6 +76,8 @@
             <th>Position</th>
             <th>Country</th>
             <th>Jersey</th>
+            <th>Count</th>
+
 
 
         </tr>

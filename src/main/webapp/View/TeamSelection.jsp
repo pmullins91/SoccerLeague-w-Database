@@ -1,3 +1,4 @@
+<%@ page import="com.patmullins.soccerleague.repository.PlayersRepositoryImpl" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +49,7 @@
                     <ul role="menu" class="dropdown-menu">
                         <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
                         <li><a href="/teamList">Registered Teams</a></li>
-                        <li><a href="#">Team Selection</a></li>
+                        <li><a href="../View/TeamSelection.jsp">Team Selection</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -57,27 +58,117 @@
         </div>
     </div>
 </nav>
+
+<%
+    PlayersRepositoryImpl repository = new PlayersRepositoryImpl();%>
+
 <div class="bs-example">
     <table class="table table-striped">
         <thead>
         <tr>
 
             <th>Team Name</th>
+            <th>Total Players</th>
 
 
         </tr>
         </thead>
         <tbody>
+
         <tr>
+            <td><a href=../arsenalTeams>Arsenal</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
 
+        <tr>
+            <td><a href=../arsenalTeams>Aston Villa</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
 
-            <td><a href=../arsenalTeams>Arsenal</a></td></td>
-            <td>Aston Villa</td>
-            <td></td>
-            <td></td>
-            <td> </td>
+        <tr>
+            <td><a href=../arsenalTeams>Barnsley</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
 
+        <tr>
+            <td><a href=../arsenalTeams>Crystal Palace</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
 
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Everton</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Hull City</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Leicaster City</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Liverpool</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Manchester City</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Manchester United</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Newcastle United</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Queens Park Rangers</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Southampton</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Stoke City</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Sunderland</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Swansea</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>Tottenham</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>West Brom</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
+        </tr>
+
+        <tr>
+            <td><a href=../arsenalTeams>West Ham</a></td>
+            <td><%=repository.findArsenalPlayers().size() %> </td>
         </tr>
 
 
