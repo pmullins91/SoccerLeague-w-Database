@@ -27,19 +27,17 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="#">DSMSL</a>
+            <a class="navbar-brand" href="HomePage.jsp">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
                 <li><a href="HomePage.jsp" >Home</a></li>
-                <%--<li><a href="../Player/teamRegistrationForm.jsp" >Player Registration</a></li>--%>
-                <%--<li><a href="/PlayerServlet" >Registered Players</a></li>--%>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
-                        <li><a href="/PlayerServlet">Registered Players</a></li>
+                        <li><a href="/playerList">Registered Players</a></li>
                         <li><a href="#">Available Players</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
@@ -49,7 +47,7 @@
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
-                        <li><a href="/TeamServlet">Registered Teams</a></li>
+                        <li><a href="/teamList">Registered Teams</a></li>
                         <li><a href="#">Team Selection</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>

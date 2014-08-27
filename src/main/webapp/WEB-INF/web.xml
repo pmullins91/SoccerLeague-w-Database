@@ -6,24 +6,27 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
 
     <servlet>
-        <servlet-name>PlayerServlet</servlet-name>
-        <servlet-class>com.patmullins.soccerleague.web.PlayerServlet</servlet-class>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <servlet-class>com.patmullins.soccerleague.web.SoccerLeagueController</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>PlayerServlet</servlet-name>
-        <url-pattern>/PlayerServlet</url-pattern>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/playerList</url-pattern>
     </servlet-mapping>
-
-    <servlet>
-        <servlet-name>TeamServlet</servlet-name>
-        <servlet-class>com.patmullins.soccerleague.web.TeamServlet</servlet-class>
-    </servlet>
-
     <servlet-mapping>
-        <servlet-name>TeamServlet</servlet-name>
-        <url-pattern>/TeamServlet</url-pattern>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/teamList</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/displayPlayers</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/displayTeams</url-pattern>
+    </servlet-mapping>
+
 
 
 </web-app>

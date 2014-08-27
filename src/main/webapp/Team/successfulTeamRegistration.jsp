@@ -38,12 +38,12 @@
             <ul class="nav navbar-nav">
                 <li><a href="../View/HomePage.jsp" >Home</a></li>
                 <%--<li><a href="../Team/teamRegistrationForm.jsp" >Team Registration</a></li>--%>
-                <%--<li><a href="/TeamServlet" >Registered Teams</a></li>--%>
+                <%--<li><a href="/teamList" >Registered Teams</a></li>--%>
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Team Registration</a></li>
-                        <li><a href="/PlayerServlet">Registered Teams</a></li>
+                        <li><a href="/playerList">Registered Teams</a></li>
                         <li><a href="#">Available Teams</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
@@ -53,7 +53,7 @@
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
-                        <li><a href="/TeamServlet">Registered Teams</a></li>
+                        <li><a href="/teamList">Registered Teams</a></li>
                         <li><a href="#">Team Selection</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>

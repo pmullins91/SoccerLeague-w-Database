@@ -16,21 +16,25 @@ import java.io.IOException;
 import java.util.List;
 
 
+
+
 public class SoccerLeagueController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String userPath = request.getServletPath();
 
-        if (userPath.equals("/Players/playerRegistrationForm.jsp")){
+        if (userPath.equals("/playerList")){
         PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
 
         List<Player> players = repository.findAllPlayers();
         request.setAttribute("players", players);
 
-        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllTeams.jsp");
+        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllPlayers.jsp");
         view.forward(request, response);
+
+
     }
-    else if (userPath.equals("/Team/teamRegistrationForm.jsp")){
+    else if (userPath.equals("/teamList")){
             TeamsRepositoryImpl repository = new TeamsRepositoryImpl();
 
         List<Team> teams = repository.findAllChelsea();
@@ -43,7 +47,7 @@ public class SoccerLeagueController extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String userPath = request.getServletPath();
 
-        if (userPath.equals("/Players/playerRegistrationForm.jsp")) {
+        if (userPath.equals("/displayPlayers")) {
         PlayersRepository repository = new PlayersRepositoryImpl();
 
         Player playerEntry = new Player();
@@ -57,10 +61,10 @@ public class SoccerLeagueController extends HttpServlet {
 
         repository.save(playerEntry);
 
-        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/successfulTeamRegistration.jsp");
+        RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/successfulPlayerRegistration.jsp");
         view.forward(request, response);
         }
-        else if (userPath.equals("/Team/teamRegistrationForm.jsp")){
+        else if (userPath.equals("/displayTeams")){
             TeamsRepository repository = new TeamsRepositoryImpl();
 
             Team teamEntry = new Team();
