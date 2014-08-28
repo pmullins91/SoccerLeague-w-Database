@@ -30,7 +30,78 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
         <servlet-name>SoccerLeagueController</servlet-name>
         <url-pattern>/arsenalTeams</url-pattern>
     </servlet-mapping>
-
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/astonVillaTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/barnsleyTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/crystalPalaceTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/evertonTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/hullCityTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/leicasterCityTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/liverpoolTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/manchesterCityTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/manchesterUnitedTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/newcastleUnitedTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/queensParkRangersTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/southamptonTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/stokeCityTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/sunderlandTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/swanseaTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/tottenhamTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/westBromTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoccerLeagueController</servlet-name>
+        <url-pattern>/westHamTeams</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>
