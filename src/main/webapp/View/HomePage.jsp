@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Des Moines Soccer League</title>
+    <title>Premier League</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -33,6 +32,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
+                <%--<a class="brand" href="#"><img src="../View/normal_Arsenal_FC-n_logo_0.png" width="30" height="30" alt="w3resource logo" /></a>--%>
                 <li class="active"><a href="../View/HomePage.jsp" >Home</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
@@ -58,24 +58,24 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <center><h1>Des Moines Soccer League</h1>
-        <p>Bringing you a inner city soccer league, sign up now and enjoy a competitive edge.<center><a href="../Player/playerRegistrationForm.jsp" class="btn btn-danger btn-lg">Get started today</a></center></p>
+        <center><h1>Premier League</h1>
+        <p>Top level soccer with English flare.<center><a href="../Player/playerRegistrationForm.jsp" class="btn btn-danger btn-lg">Get started today</a></center></p>
         </center>
     </div>
     <div class="row">
         <div class="col-xs-4">
-            <h2>Premiere League</h2>
-            <p>The premiere league one of the most competitive leagues you can find. The top team across Iowa try to win, the strongest competition ou there.</p>
+            <h2>Premier Teams</h2>
+            <p>View all the teams that are registered in the Premier League. Find out what team is eligible to play with and see which is full. </p>
             <p><a href="PremiereLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
         </div>
         <div class="col-xs-4">
-            <h2>2nd Division</h2>
-            <p>The 2nd division is a strong league of teams that have the desire to play in the premiere league but have yet to make it.</p>
+            <h2>League Table</h2>
+            <p>View the results of the Premier League.</p>
             <p><a href="2ndLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
         </div>
         <div class="col-xs-4">
-            <h2>Coed</h2>
-            <p>Coed is a mixture of men and women, a less competitive league but promised to have a lot of fun.</p>
+            <h2>Player Statistics</h2>
+            <p>View all the players stats throughout the season.</p>
             <p><a href="CoedPage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
         </div>
     </div>
@@ -90,3 +90,4 @@
 </div>
 </body>
 </html>
+

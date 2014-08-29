@@ -28,7 +28,7 @@ public class JDBCTemplate {
             // Driver for different machines
 //            return DriverManager.getConnection("jdbc:postgresql://localhost:8888/Players", "postgres", "arsenal");
 //            return DriverManager.getConnection("jdbc:postgresql://localhost:5432/soccerleaguedb", "dan", "");
-            return DriverManager.getConnection("jdbc:postgresql://localhost:3693/Players", "postgres", "arsenal");
+              return DriverManager.getConnection("jdbc:postgresql://localhost:3693/Players", "postgres", "arsenal");
 //            return DriverManager.getConnection("jdbc:postgresql://localhost:1212/Players", "postgres", "arsenal");
 //
 //            return DriverManager.getConnection("jdbc:postgresql://localhost:8888/Players", "postgres", "arsenal");

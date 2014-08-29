@@ -1,12 +1,12 @@
 package com.patmullins.soccerleague.domain;
 
+
 public class Player {
     private String firstName;
     private String lastName;
     private String position;
     private String country;
     private int jersey;
-    private String compLevel;
     private String playerTeamName;
 
     public String getFirstName() {
