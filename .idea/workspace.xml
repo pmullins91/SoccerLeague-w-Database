@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc9a765-50b1-4b55-84cb-297c7fff2000" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PayCheckRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PayCheckRepositoryImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerPayCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/js/addInput.js" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\java\com\patmullins\soccerleague\domain\Team.java" afterPath="" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\java\com\patmullins\soccerleague\repository\TeamsRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\java\com\patmullins\soccerleague\repository\TeamsRepositoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\Team\displayAllTeams.jsp" afterPath="" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\Team\successfulTeamRegistration.jsp" afterPath="" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\View\2ndLeaguePage.jsp" afterPath="" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\View\CoedPage.jsp" afterPath="" />
-      <change type="DELETED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\View\PremiereLeaguePage.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\Player\displayAllPlayers.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/displayAllPayChecks.jsp" />
-      <change type="MOVED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\Player\displayArsenalPlayers.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/successfulPayCheck.jsp" />
-      <change type="MOVED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\Team\teamRegistrationForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/payCheckForm.jsp" />
-      <change type="MOVED" beforePath="Z:\1MullinsPatrick\SoccerleagueDB\SoccerLeague-w-Database\src\main\webapp\View\TeamSelection.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp" />
     </list>
     <ignored path="soccerleague.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,10 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomePage.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomePage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="25" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.4389439" vertical-offset="550" max-vertical-offset="1615">
+            <state line="51" column="14" selection-start="2609" selection-end="2609" vertical-scroll-proportion="-12.192307" vertical-offset="550" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -111,7 +87,16 @@
       <file leaf-file-name="displayAllPlayers.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="181" selection-end="2809" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1887">
+            <state line="81" column="12" selection-start="3307" selection-end="3307" vertical-scroll-proportion="-7.8461537" vertical-offset="1173" max-vertical-offset="1870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="displayArsenalPlayers.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="29" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.546042" vertical-offset="818" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
@@ -133,15 +118,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="displayQueensParkRangersPlayers.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayQueensParkRangersPlayers.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="85" selection-start="2558" selection-end="2607" vertical-scroll-proportion="-14.807693" vertical-offset="448" max-vertical-offset="1802">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -191,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPayCheck.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAstonVillaPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayBarnsleyPlayers.jsp" />
@@ -210,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/payCheckForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp" />
       </list>
     </option>
   </component>
@@ -1129,7 +1105,7 @@
       <workItem from="1409773295163" duration="4190000" />
       <workItem from="1409837997454" duration="11751000" />
       <workItem from="1409925767205" duration="15496000" />
-      <workItem from="1409945981796" duration="4275000" />
+      <workItem from="1409945981796" duration="4487000" />
     </task>
     <task id="LOCAL-00001" summary="Database and layout&#10;">
       <created>1408561310281</created>
@@ -1215,11 +1191,15 @@
       <created>1409239349141</created>
       <updated>1409239349141</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="New updated app with compensation starting form&#10;">
+      <created>1409950265530</created>
+      <updated>1409950265530</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354781000" />
+    <option name="totallyTimeSpent" value="354993000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1560,13 +1540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="1923" selection-end="1923" vertical-scroll-proportion="-8.269231" vertical-offset="448" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAstonVillaPlayers.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="38" selection-start="1923" selection-end="1923" vertical-scroll-proportion="-8.269231" vertical-offset="448" max-vertical-offset="1802">
@@ -1674,13 +1647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="181" selection-end="2809" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1887">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="18" selection-start="1730" selection-end="1730" vertical-scroll-proportion="-2.2027028" vertical-offset="466" max-vertical-offset="3077">
@@ -1697,7 +1663,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="25" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.4389439" vertical-offset="550" max-vertical-offset="1615">
+        <state line="51" column="14" selection-start="2609" selection-end="2609" vertical-scroll-proportion="-12.192307" vertical-offset="550" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="12" selection-start="3307" selection-end="3307" vertical-scroll-proportion="-7.8461537" vertical-offset="1173" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="29" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.546042" vertical-offset="818" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
