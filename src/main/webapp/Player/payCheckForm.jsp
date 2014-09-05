@@ -26,18 +26,18 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../View/HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="../../View/HomePage.jsp">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="../View/HomePage.jsp" >Home</a></li>
+                <li><a href="../../View/HomePage.jsp" >Home</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
                         <li><a href="/playerList">Registered Players</a></li>
-                        <li><a href="#">Available Players</a></li>
+                        <li><a href="../payCheckForm.jsp">Compensation</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -45,28 +45,27 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
-                        <li><a href="/teamList">Registered Teams</a></li>
-                        <li><a href="../View/TeamSelection.jsp">Team Selection</a></li>
+                        <li><a href="../Player/playerTeamSelection/TeamSelection.jsp">View Teams</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 <div class="bs-example">
     <div class="panel panel-warning">
         <div class="panel-heading">
-            <h3 class="panel-title">Team Registration Form</h3>
+            <h3 class="panel-title">Referee Evaluation Form</h3>
         </div>
         <div class="panel-body">
 
 <div class="bs-example">
-    <form method="post" action="${pageContext.request.contextPath}/displayTeams">
+    <form method="post" action="${pageContext.request.contextPath}/displayPayChecks">
             <div class="form-group">
-            <label for="teamName" class="control-label col-xs-2">Team Name: </label>
+            <label for="firstName" class="control-label col-xs-2">First Name: </label>
             <div class="col-xs-10">
-                <input type="text" class="form-control" id="teamName" name="teamName" >
+                <input type="text" class="form-control" id="firstName" name="firstName" >
             </div>
         </div>
         <br>
@@ -77,27 +76,61 @@
 
 
         <div class="form-group">
-            <label for="teamCity" class="control-label col-xs-2">Team City: </label>
+            <label for="lastName" class="control-label col-xs-2">Last Name: </label>
             <div class="col-xs-10">
-                <input type="text" class="form-control" id="teamCity" name="teamCity" >
+                <input type="text" class="form-control" id="lastName" name="lastName" >
             </div>
         </div>
         <br>
         <br>
 
         <div class="form-group">
-            <label for="teamCompLevel" class="control-label col-xs-2">Desired Competition Level: </label>
+            <label for="playerDivision" class="control-label col-xs-2">Division: </label>
             <div class="col-xs-10">
-                <select  class="form-control" id="teamCompLevel" name="teamCompLevel">
-                    <option></option>
-                    <option>Premiere League</option>
-                    <option>2nd Division</option>
-                    <option>Coed</option>
-                </select>
+                <input type="text" class="form-control" id="playerDivision" name="playerDivision" >
             </div>
         </div>
         <br>
         <br>
+
+        <div class="form-group">
+            <label for="playerChampions" class="control-label col-xs-2">Were You Champions?: </label>
+            <div class="col-xs-10">
+                <input type="text" class="form-control" id="playerChampions" name="playerChampions" >
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="form-group">
+            <label for="playerAge" class="control-label col-xs-2">Age: </label>
+            <div class="col-xs-10">
+                <input type="number" class="form-control" id="playerAge" name="playerAge" >
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="form-group">
+            <label for="goalsScored" class="control-label col-xs-2">Goals Scored: </label>
+            <div class="col-xs-10">
+                <input type="number" class="form-control" id="goalsScored" name="goalsScored" min="0" max="99">
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="form-group">
+            <label for="goalsSaved" class="control-label col-xs-2">Goals Saved: </label>
+            <div class="col-xs-10">
+                <input type="number" class="form-control" id="goalsSaved" name="goalsSaved" min="0" max="99">
+            </div>
+        </div>
+        <br>
+        <br>
+
+
         <div class="form-group">
             <div class="col-xs-offset-2 col-xs-10">
                 <button type="submit" class="btn btn-danger">Submit</button>
@@ -105,11 +138,12 @@
         </div>
         <br>
         <br>
-
+</div>
     </form>
 </div>
     </div>
     </div>
     </div>
+
 </body>
 </html>

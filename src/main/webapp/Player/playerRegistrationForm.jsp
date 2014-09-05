@@ -26,18 +26,18 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../View/HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="../../View/HomePage.jsp">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="../View/HomePage.jsp" >Home</a></li>
+                <li><a href="../../View/HomePage.jsp" >Home</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
                         <li><a href="/playerList">Registered Players</a></li>
-                        <li><a href="#">Available Players</a></li>
+                        <li><a href="../payCheckForm.jsp">Compensation</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -45,9 +45,7 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
-                        <li><a href="/teamList">Registered Teams</a></li>
-                        <li><a href="../View/TeamSelection.jsp">Team Selection</a></li>
+                        <li><a href="../Player/playerTeamSelection/TeamSelection.jsp">View Teams</a></li>
                     </ul>
                 </li>
             </ul>
@@ -63,7 +61,7 @@
         <div class="panel-body">
 
 <div class="bs-example">
-    <form method="post" action="${pageContext.request.contextPath}/displayPlayers">
+    <form method="post" action="/displayPlayers">
             <div class="form-group">
             <label for="firstName" class="control-label col-xs-2">First Name: </label>
             <div class="col-xs-10">

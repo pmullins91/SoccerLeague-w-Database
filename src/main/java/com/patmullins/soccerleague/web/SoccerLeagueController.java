@@ -1,11 +1,8 @@
 package com.patmullins.soccerleague.web;
 
 import com.patmullins.soccerleague.domain.Player;
-import com.patmullins.soccerleague.domain.Team;
-import com.patmullins.soccerleague.repository.PlayersRepository;
-import com.patmullins.soccerleague.repository.PlayersRepositoryImpl;
-import com.patmullins.soccerleague.repository.TeamsRepository;
-import com.patmullins.soccerleague.repository.TeamsRepositoryImpl;
+import com.patmullins.soccerleague.domain.PlayerPayCheck;
+import com.patmullins.soccerleague.repository.*;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -22,18 +19,19 @@ public class SoccerLeagueController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String userPath = request.getServletPath();
-        if (userPath.equals("/teamList")){
 
-            TeamsRepositoryImpl repository = new TeamsRepositoryImpl();
+//        else if (userPath.equals("/payCheckList")){
+//
+//            PayCheckRepositoryImpl repository = new PayCheckRepositoryImpl();
+//
+//            List<PlayerPayCheck> payChecks = repository.findAllPayChecks();
+//            request.setAttribute("payChecks", payChecks);
+//
+//            RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllPayChecks.jsp");
+//            view.forward(request, response);
+//        }
 
-            List<Team> teams = repository.findAllTeams();
-            request.setAttribute("teams", teams);
-
-            RequestDispatcher view = getServletContext().getRequestDispatcher("/Team/displayAllTeams.jsp");
-            view.forward(request, response);
-
-    }
-    else if (userPath.equals("/playerList")){
+         if (userPath.equals("/playerList")){
 
             PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
 
@@ -234,6 +232,16 @@ public class SoccerLeagueController extends HttpServlet {
             view.forward(request, response);
 
         }
+        else if(userPath.equals("/payCheckList")){
+           PayCheckRepositoryImpl repository = new PayCheckRepositoryImpl();
+
+            List<PlayerPayCheck> playerPayCheckEntry = repository.findAllPayChecks();
+            request.setAttribute("playerPayCheckEntry", playerPayCheckEntry);
+
+            RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/displayAllPayChecks.jsp");
+            view.forward(request, response);
+
+        }
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -258,23 +266,29 @@ public class SoccerLeagueController extends HttpServlet {
         view.forward(request, response);
         }
 
-        else if (userPath.equals("/displayTeams")){
-            TeamsRepository repository = new TeamsRepositoryImpl();
 
-            Team teamEntry = new Team();
-            teamEntry.setTeamName(request.getParameter("teamName"));
-            teamEntry.setTeamCity(request.getParameter("teamCity"));
-            teamEntry.setTeamCompLevel(request.getParameter("teamCompLevel"));
+            else if (userPath.equals("/displayPayChecks")) {
 
-            request.setAttribute("teamEntry", teamEntry);
+                PayCheckRepository repository = new PayCheckRepositoryImpl();
 
-            repository.save(teamEntry);
+                PlayerPayCheck playerPayCheckEntry = new PlayerPayCheck();
+                playerPayCheckEntry.setFirstName(request.getParameter("firstName"));
+                playerPayCheckEntry.setLastName(request.getParameter("lastName"));
+                playerPayCheckEntry.setDivision(request.getParameter("playerDivision"));
+                playerPayCheckEntry.setChampions(request.getParameter("playerChampions"));
+                playerPayCheckEntry.setPlayerAge(Integer.parseInt(request.getParameter("playerAge")));
+                playerPayCheckEntry.setGoalsSaved(Integer.parseInt(request.getParameter("goalsSaved")));
+                playerPayCheckEntry.setGoalsScored(Integer.parseInt(request.getParameter("goalsScored")));
 
-            RequestDispatcher view = getServletContext().getRequestDispatcher("/Team/successfulTeamRegistration.jsp");
-            view.forward(request, response);
+                request.setAttribute("playerPayCheckEntry", playerPayCheckEntry);
 
-        }
+                repository.save(playerPayCheckEntry);
+
+                RequestDispatcher view = getServletContext().getRequestDispatcher("/Player/successfulPayCheck.jsp");
+                view.forward(request, response);
+            }
+
     }
-
-
 }
+
+

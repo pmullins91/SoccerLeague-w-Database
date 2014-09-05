@@ -1,5 +1,6 @@
 <%@ page import="java.util.List" %>
-<%@ page import="com.patmullins.soccerleague.domain.Team" %>
+<%@ page import="com.patmullins.soccerleague.domain.Player" %>
+<%@ page import="com.patmullins.soccerleague.domain.PlayerPayCheck" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,18 +29,18 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../View/HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="../../View/HomePage.jsp">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li><a href="../View/HomePage.jsp" >Home</a></li>
+                <li><a href="../../View/HomePage.jsp" >Home</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
                         <li><a href="/playerList">Registered Players</a></li>
-                        <li><a href="#">Available Players</a></li>
+                        <li><a href="../payCheckForm.jsp">Compensation</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -47,49 +48,28 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
-                        <li><a href="/teamList">Registered Teams</a></li>
-                        <li><a href="../View/TeamSelection.jsp">Team Selection</a></li>
+                        <li><a href="../Player/playerTeamSelection/TeamSelection.jsp">View Teams</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-
-<h2><center>Registered Teams</center></h2>
 <%
-    List<Team> teams = (List<Team>) request.getAttribute("teams");
+PlayerPayCheck playerPayCheckEntry = (PlayerPayCheck) request.getAttribute("playerPayCheckEntry");
 %>
+<center>
+<h3>Player registration is now completed. Please review your entered information.</h3><br>
 
-<div class="bs-example">
-    <table class="table table-striped">
-        <thead>
-        <tr>
-
-            <th>Name</th>
-            <th>City</th>
-            <th>Competition Level</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <% for (Team team : teams) { %>
-
-            <td><%=team.getTeamName() %> </td>
-            <td><%=team.getTeamCity() %></td>
-            <td><%=team.getTeamCompLevel() %></td>
-
-        </tr>
-
-        <% } %>
-
-        </tbody>
-    </table>
-
-</div>
+<h5><b>Player Name:</b> <%= playerPayCheckEntry.getFirstName() + " " + playerPayCheckEntry.getLastName()%><br></h5>
+    <h5><b>Yellow Card: </b> <%= playerPayCheckEntry.getDivision()%></h5>
+    <h5><b>Time Given(Yellow):</b> <%= playerPayCheckEntry.getChampions()%><br></h5>
+    <h5><b>Red Cards :</b> <%= playerPayCheckEntry.getGoalsScored()%><br></h5>
+    <h5><b>Time Given(Red) :</b> <%= playerPayCheckEntry.getGoalsSaved()%></h5>
+    <h5><b>Away Goals:</b> <%= playerPayCheckEntry.getPlayerAge()%></h5>
 
 
+</center>
+<center><a hre f="../View/HomePage.jsp" class="btn btn-primary btn-sm">Home</a></center>
 </body>
 </html>
-

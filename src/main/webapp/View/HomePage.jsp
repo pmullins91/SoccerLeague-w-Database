@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="favicon.ico" >
     <style type="text/css">
         body{
             padding-top: 70px;
@@ -27,19 +26,18 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand" href="../View/HomePage.jsp">DSMSL</a>
+            <a class="navbar-brand" href="../../View/HomePage.jsp">DSMSL</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <%--<a class="brand" href="#"><img src="../View/normal_Arsenal_FC-n_logo_0.png" width="30" height="30" alt="w3resource logo" /></a>--%>
-                <li class="active"><a href="../View/HomePage.jsp" >Home</a></li>
+                <li><a href="../../View/HomePage.jsp" >Home</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Players <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
                         <li><a href="/playerList">Registered Players</a></li>
-                        <li><a href="#">Available Players</a></li>
+                        <li><a href="../payCheckForm.jsp">Compensation</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -47,9 +45,7 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Teams <b class="caret"></b></a>
                     <ul role="menu" class="dropdown-menu">
-                        <li><a href="../Team/teamRegistrationForm.jsp">Team Registration</a></li>
-                        <li><a href="/teamList">Registered Teams</a></li>
-                        <li><a href="../View/TeamSelection.jsp">Team Selection</a></li>
+                        <li><a href="../Player/playerTeamSelection/TeamSelection.jsp">View Teams</a></li>
                     </ul>
                 </li>
             </ul>
@@ -62,28 +58,28 @@
         <p>Top level soccer with English flare.<center><a href="../Player/playerRegistrationForm.jsp" class="btn btn-danger btn-lg">Get started today</a></center></p>
         </center>
     </div>
-    <div class="row">
-        <div class="col-xs-4">
-            <h2>Premier Teams</h2>
-            <p>View all the teams that are registered in the Premier League. Find out what team is eligible to play with and see which is full. </p>
-            <p><a href="PremiereLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-xs-4">
-            <h2>League Table</h2>
-            <p>View the results of the Premier League.</p>
-            <p><a href="2ndLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-xs-4">
-            <h2>Player Statistics</h2>
-            <p>View all the players stats throughout the season.</p>
-            <p><a href="CoedPage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>
-        </div>
-    </div>
+    <%--<div class="row">--%>
+        <%--<div class="col-xs-4">--%>
+            <%--<h2>Premier Teams</h2>--%>
+            <%--<p>View all the teams that are registered in the Premier League. Find out what team is eligible to play with and see which is full. </p>--%>
+            <%--<p><a href="PremiereLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>--%>
+        <%--</div>--%>
+        <%--<div class="col-xs-4">--%>
+            <%--<h2>League Table</h2>--%>
+            <%--<p>View the results of the Premier League.</p>--%>
+            <%--<p><a href="2ndLeaguePage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>--%>
+        <%--</div>--%>
+        <%--<div class="col-xs-4">--%>
+            <%--<h2>Player Statistics</h2>--%>
+            <%--<p>View all the players stats throughout the season.</p>--%>
+            <%--<p><a href="CoedPage.jsp" class="btn btn-danger">Learn More &raquo;</a></p>--%>
+        <%--</div>--%>
+    <%--</div>--%>
     <hr>
     <div class="row">
         <div class="col-xs-12">
             <footer>
-                <p>&copy; Mullins DSM Soccer League</p>
+                <center><p>&copy; Mullins DSM Soccer League</p></center>
             </footer>
         </div>
     </div>
