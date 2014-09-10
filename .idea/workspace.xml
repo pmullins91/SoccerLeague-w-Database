@@ -2,65 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc9a765-50b1-4b55-84cb-297c7fff2000" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jmock_jmock_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_acegisecurity_acegi_security_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_camel_core_2_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_feature_gmaven_feature_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_feature_gmaven_feature_support_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_runtime_gmaven_runtime_1_7_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_runtime_gmaven_runtime_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_runtime_gmaven_runtime_support_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fitnesse_fitlibrary_20090628.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fitnesse_fitnesse_20090513.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_gossip_gossip_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_gshell_gshell_io_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_2_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_2_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_dao_2_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_2_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_remoting_2_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_support_2_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_resources_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_studentloan_mockery_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerPayCheck.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerPayCheck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImplTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/displayAllPayChecks.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/displayAllPayChecks.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/payCheckForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/payCheckForm.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soccerleague.iml" afterPath="$PROJECT_DIR$/soccerleague.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/successfulPayCheck.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/successfulPayCheck.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -127,62 +73,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PlayerPayCheck.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerPayCheck.java">
+      <file leaf-file-name="displayWestBromPlayers.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestBromPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+            <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerTest.java">
+      <file leaf-file-name="displayAstonVillaPlayers.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAstonVillaPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1632">
+            <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayersRepositoryImplTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImplTest.java">
+      <file leaf-file-name="displayBarnsleyPlayers.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayBarnsleyPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="20" selection-start="402" selection-end="402" vertical-scroll-proportion="0.24220183" vertical-offset="106" max-vertical-offset="4335">
+            <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PayCheckRepositoryImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PayCheckRepositoryImpl.java">
+      <file leaf-file-name="displayArsenalPlayers.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="731">
-              <folding>
-                <marker date="1409940560337" expanded="true" signature="842:1244" placeholder="insert into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayersRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+            <state line="18" column="20" selection-start="733" selection-end="733" vertical-scroll-proportion="0.5895954" vertical-offset="0" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayersRepositoryImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java">
+      <file leaf-file-name="displayWestHamPlayers.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestHamPlayers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="74" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6562">
-              <folding>
-                <element signature="e#4256#4988#0" expanded="true" />
-                <element signature="e#4977#4978#0" expanded="true" />
-                <marker date="1409236025216" expanded="true" signature="838:1129" placeholder="insert into ..." />
-              </folding>
+            <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="displayEvertonPlayers.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayEvertonPlayers.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,8 +160,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PayCheckRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PayCheckRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/web/SoccerLeagueController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/displayAllPayChecks.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerRegistrationForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/payCheckForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/jdbc/JDBCTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerPayCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPayCheck.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/displayAllPayChecks.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAstonVillaPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayBarnsleyPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayCrystalPalacePlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayEvertonPlayers.jsp" />
@@ -239,18 +190,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayTottenhamPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestBromPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestHamPlayers.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAstonVillaPlayers.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/payCheckForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/jdbc/JDBCTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/domain/PlayerPayCheck.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Player/successfulPayCheck.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImplTest.java" />
       </list>
     </option>
   </component>
@@ -1178,7 +1118,7 @@
       <workItem from="1409945981796" duration="4532000" />
       <workItem from="1410183381417" duration="93000" />
       <workItem from="1410184632750" duration="1289000" />
-      <workItem from="1410187809571" duration="11849000" />
+      <workItem from="1410187809571" duration="13589000" />
     </task>
     <task id="LOCAL-00001" summary="Database and layout&#10;">
       <created>1408561310281</created>
@@ -1272,11 +1212,15 @@
       <created>1409950476398</created>
       <updated>1409950476398</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added unit test for the repository">
+      <created>1410367838956</created>
+      <updated>1410367838956</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368269000" />
+    <option name="totallyTimeSpent" value="370009000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1307,6 +1251,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1321,12 +1266,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28836834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009694" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33258173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33258173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905483" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1386,7 +1330,8 @@
     <MESSAGE value="Created new methods to select database data from certain fields." />
     <MESSAGE value="        Created new methods to select database data from certain fields.&#10;" />
     <MESSAGE value="New updated app with compensation starting form&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="New updated app with compensation starting form&#10;" />
+    <MESSAGE value="Added unit test for the repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unit test for the repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1515,170 +1460,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayCrystalPalacePlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayEvertonPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayHullCityPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayLeicasterCityPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayLiverpoolPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayManchesterCityPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayManchesterUnitedPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayNewcastleUnitedPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayQueensParkRangersPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displaySouthamptonPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayStokeCityPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displaySunderlandPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displaySwanseaPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayTottenhamPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestBromPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestHamPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/successfulPlayerRegistration.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="47" selection-start="2002" selection-end="2013" vertical-scroll-proportion="-7.8076925" vertical-offset="460" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="56" selection-start="2203" selection-end="2203" vertical-scroll-proportion="0.30478087" vertical-offset="561" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.4123506" vertical-offset="490" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAstonVillaPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="2105" selection-end="2105" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayBarnsleyPlayers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="2101" selection-end="2101" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="33" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.5736527" vertical-offset="898" max-vertical-offset="3094">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPayChecks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="36" selection-start="2690" selection-end="2690" vertical-scroll-proportion="0.37005988" vertical-offset="558" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
@@ -1734,7 +1518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="731">
           <folding>
-            <marker date="1409940560337" expanded="true" signature="842:1244" placeholder="insert into ..." />
+            <marker date="1409940560337" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -1745,7 +1529,7 @@
           <folding>
             <element signature="e#4256#4988#0" expanded="true" />
             <element signature="e#4977#4978#0" expanded="true" />
-            <marker date="1409236025216" expanded="true" signature="838:1129" placeholder="insert into ..." />
+            <marker date="1409236025216" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -1766,7 +1550,170 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patmullins/soccerleague/repository/PlayersRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="402" selection-end="402" vertical-scroll-proportion="0.24220183" vertical-offset="106" max-vertical-offset="4335">
+        <state line="19" column="33" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4335">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/View/HomePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="62" selection-start="2002" selection-end="2028" vertical-scroll-proportion="-7.8076925" vertical-offset="460" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/displayAllPayChecks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="36" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.35260117" vertical-offset="548" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAllPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="63" selection-start="2184" selection-end="2210" vertical-scroll-proportion="0.2947977" vertical-offset="561" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayCrystalPalacePlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayHullCityPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayLeicasterCityPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayLiverpoolPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayManchesterCityPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayManchesterUnitedPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayNewcastleUnitedPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayQueensParkRangersPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displaySouthamptonPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayStokeCityPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displaySunderlandPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displaySwanseaPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayTottenhamPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestBromPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayWestHamPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/TeamSelection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="39" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.30057803" vertical-offset="541" max-vertical-offset="3094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayEvertonPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayBarnsleyPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayAstonVillaPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="63" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-7.9615383" vertical-offset="490" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Player/playerTeamSelection/displayArsenalPlayers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="733" selection-end="733" vertical-scroll-proportion="0.5895954" vertical-offset="0" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
