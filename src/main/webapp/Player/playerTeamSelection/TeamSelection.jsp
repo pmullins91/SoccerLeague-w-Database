@@ -39,7 +39,7 @@
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
                         <li><a href="/playerList">Registered Players</a></li>
-                        <li><a href="../payCheckForm.jsp">Compensation</a></li>
+                        <li><a href="../Player/payCheckForm.jsp">Compensation</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -57,7 +57,8 @@
 
 
 <%
-    PlayersRepositoryImpl repository = new PlayersRepositoryImpl();%>
+    PlayersRepositoryImpl repository = new PlayersRepositoryImpl();
+%>
 
 <div class="bs-example">
     <table class="table table-striped">

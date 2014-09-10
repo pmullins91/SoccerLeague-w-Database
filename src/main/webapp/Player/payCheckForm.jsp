@@ -37,7 +37,7 @@
                     <ul role="menu" class="dropdown-menu">
                         <li><a href=../Player/playerRegistrationForm.jsp>Player Registration</a></li>
                         <li><a href="/playerList">Registered Players</a></li>
-                        <li><a href="../payCheckForm.jsp">Compensation</a></li>
+                        <li><a href="../Player/payCheckForm.jsp">Compensation</a></li>
                         <%--<li class="divider"></li>--%>
                         <%--<li><a href="#">Trash</a></li>--%>
                     </ul>
@@ -56,7 +56,7 @@
 <div class="bs-example">
     <div class="panel panel-warning">
         <div class="panel-heading">
-            <h3 class="panel-title">Referee Evaluation Form</h3>
+            <h3 class="panel-title">Player Compensation Form</h3>
         </div>
         <div class="panel-body">
 
@@ -87,16 +87,25 @@
         <div class="form-group">
             <label for="playerDivision" class="control-label col-xs-2">Division: </label>
             <div class="col-xs-10">
-                <input type="text" class="form-control" id="playerDivision" name="playerDivision" >
+                <select input type="text" class="form-control" id="playerDivision" name="playerDivision" >
+                <option></option>
+                <option>Premier League</option>
+                <option>Championship</option>
+                <option>League 1</option>
+            </select>
             </div>
         </div>
         <br>
         <br>
 
         <div class="form-group">
-            <label for="playerChampions" class="control-label col-xs-2">Were You Champions?: </label>
+            <label for="playerChampions" class="control-label col-xs-2">Division Champions? </label>
             <div class="col-xs-10">
-                <input type="text" class="form-control" id="playerChampions" name="playerChampions" >
+                <select input type="text" class="form-control" id="playerChampions" name="playerChampions" >
+                <option></option>
+                <option>Yes</option>
+                <option>No</option>
+                </select>
             </div>
         </div>
         <br>
@@ -138,6 +147,7 @@
         </div>
         <br>
         <br>
+        </form>
 </div>
     </form>
 </div>

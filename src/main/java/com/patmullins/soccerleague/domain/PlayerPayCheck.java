@@ -22,6 +22,14 @@ public class PlayerPayCheck {
         this.lastName = lastName;
     }
 
+    public String getDivision() {
+        return division;
+    }
+
+    public void setDivision(String division) {
+        this.division = division;
+    }
+
     public String getChampions() {
         return champions;
     }
@@ -52,13 +60,5 @@ public class PlayerPayCheck {
 
     public void setGoalsScored(int goalsScored) {
         this.goalsScored = goalsScored;
-    }
-
-    public String getDivision() {
-        return division;
-    }
-
-    public void setDivision(String division) {
-        this.division = division;
     }
 }
